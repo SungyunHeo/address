@@ -83,9 +83,7 @@
                 if(fullRoadAddr !== ''){
                     fullRoadAddr += extraRoadAddr;
                 }
-
-				window.KakaoPost.getAddress(data.zonecode, fullRoadAddr);
-
+		
                 var postData = {
                     address : fullRoadAddr,
                     zipcode : data.zonecode
