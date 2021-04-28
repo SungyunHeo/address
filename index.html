@@ -101,10 +101,10 @@
                 }
 		var platform = window.checkMobile();
 		
-		if platform === 'android' {
+		if(platform === 'android') {
 		    window.KakaoPost.getAddress(data.zonecode, fullRoadAddr);
 		}
-		if platform === 'ios' {
+		if(platform === 'ios') {
                     var postData = {
 			address : fullRoadAddr,
 			zipcode : data.zonecode
